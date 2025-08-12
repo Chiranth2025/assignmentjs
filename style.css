@@ -4,7 +4,7 @@
     background: #ede8f5;
     background-blend-mode: hard-light;
 } 
-h2{
+h1{
     background: linear-gradient(rgba(112, 42, 9, 0.377),rgba(194, 123, 17, 0.815));
    text-align: center; 
 } 
@@ -33,3 +33,4 @@ h2{
     left: 50%;
     transform: translate(-50%,50%);
 }
+
