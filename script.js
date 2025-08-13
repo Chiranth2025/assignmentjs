@@ -35,5 +35,11 @@ let user;
 document.getElementById('mybutton').onclick=function(event){
        event.preventDefault();
      user=document.getElementById('mytext').value;
-     document.getElementById('intro').textContent=`Hello, ${user}`
+     if(user){
+        document.getElementById('intro').textContent=`Hello, ${user}`
+     }
+     else{
+        document.getElementById('intro').textContent=`Hello`
+     }
 }
+
